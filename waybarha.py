@@ -48,7 +48,7 @@ def main():
                     cssclass = state
             else:
                 if 'state' in j:
-                    text = j['state'] + '%'
+                    text = j['state']
             if (debug): sys.stderr.write(f'{args.entity} is {state}\n')
             tooltip = json.dumps(j)
         else:

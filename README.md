@@ -31,7 +31,7 @@ In your waybar's .jsonc, add one entry per entity you want to read/toggle. Examp
     "interval": 5
   },
   "custom/ha3": {
-    "format": "  {text}%",
+    "format": "  {text}",
     "exec": "/path/to/waybarha.py sensor.2022_santa_cruz_fuel_level",
     "return-type": "json",
     "interval": 600 // 10 minutes

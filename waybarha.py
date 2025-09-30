@@ -6,10 +6,6 @@ import requests
 
 server = '<your home assistant url>'
 token = '<token generated from home assistant in your profile -> settings -> security -> long-lived access tokens>'
-headers = {
-    'Authorization': f'Bearer {token}',
-    'Content-Type': 'application/json'
-}
 
 def main():
     debug = False
@@ -17,6 +13,10 @@ def main():
     tooltip = ''
     cssclass = ''
     state = '?'
+    headers = {
+        'Authorization': f'Bearer {token}',
+        'Content-Type': 'application/json'
+    }
     parser = argparse.ArgumentParser(
         prog = 'waybarha.py',
         description = 'Waybar home assistant module to query/toggle an entity',

@@ -1,4 +1,4 @@
-# homeassistant-waybar
+
 A module for [Waybar](https://github.com/Alexays/Waybar) that can show and toggle sensors from Home assistant
 
 ![screenshot](https://github.com/clorteau/waybarha/blob/main/.github/screenshot.png?raw=true)

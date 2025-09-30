@@ -4,7 +4,7 @@ import json
 import argparse
 import requests
 
-server = '<your home assistant url'
+server = '<your home assistant url>'
 token = '<token generated from home assistant in your profile -> settings -> security -> long-lived access tokens>'
 headers = {
     'Authorization': f'Bearer {token}',

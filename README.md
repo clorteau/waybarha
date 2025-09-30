@@ -12,6 +12,7 @@ A module for [Waybar](https://github.com/Alexays/Waybar) that can show and toggl
 Download [waybarha.py](https://raw.githubusercontent.com/clorteau/waybarha/refs/heads/main/waybarha.py) anywhere you have permission to read it
 
 # Usage
+Edit the file to set your server's URL and the access token.
 
 In your waybar's .jsonc, add one entry per entity you want to read/toggle. Examples:
 ```

@@ -1,11 +1,11 @@
 
-A module for [Waybar](https://github.com/Alexays/Waybar) that can show and toggle sensors from Home assistant
+A module for [Waybar](https://github.com/Alexays/Waybar) that can show and toggle sensors from Home Assistant
 
 ![screenshot](https://github.com/clorteau/waybarha/blob/main/.github/screenshot.png?raw=true)
 
 # Dependencies
 - Python
-- Home Assistant with enabled Rest Api <em>([link1](https://developers.home-assistant.io/docs/api/rest/) and [link2](https://www.home-assistant.io/integrations/api/) to the docs)</em>
+- Home Assistant with enabled Rest API <em>([link1](https://developers.home-assistant.io/docs/api/rest/) and [link2](https://www.home-assistant.io/integrations/api/) to the docs)</em>
 
 # Download
 

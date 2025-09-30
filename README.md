@@ -1,13 +1,15 @@
 # homeassistant-waybar
 A module for Waybar that can show and toggle sensors from Home assistant
 
+![screenshot](https://github.com/clorteau/waybarha/blob/main/.github/screenshot.png?raw=true)
+
 # Dependencies
 - Python
 - Home Assistant with enabled Rest Api <em>([link1](https://developers.home-assistant.io/docs/api/rest/) and [link2](https://www.home-assistant.io/integrations/api/) to the docs)</em>
 
 # Download
 
-Download waybarha.py anywhere you have permissions to read it
+Download [waybarha.py](https://raw.githubusercontent.com/clorteau/waybarha/refs/heads/main/waybarha.py) anywhere you have permission to read it
 
 # Usage
 

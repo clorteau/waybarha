@@ -50,7 +50,7 @@ Example of `style.css`:
 	margin: 6px 0;
 	padding: 8px 12px;
 }
-#custom-ha1.on {
+#custom-ha1.on { // highlight by swapping foreground and background when the switch is on
 	background: @sapphire;
 	color: @background-primary;
 }

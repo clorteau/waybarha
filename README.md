@@ -36,7 +36,7 @@ In your waybar's .jsonc, add one entry per entity you want to read/toggle. Examp
     "interval": 600 // 10 minutes
   }
 ```
-
+Hint: if "format": "󰌵 {text}"" has a square instead of a proper character you need to install and use [a nerd font](https://www.nerdfonts.com/).
 This plugin exposes the entity's state as 'text', unless the entity's name starts with "switch" in which case the on/off states are exposed via css classes for styling.
 
 Example of `style.css`:
